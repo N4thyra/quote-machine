@@ -16,9 +16,10 @@ function genQuote() {
         if (!quote) {
           console.log('generating new data');
           genQuote();
+        } else {
+          $('#text').html(quote);
+          $('#author').html(author);
         }
-        $('#text').html(quote);
-        $('#author').html(author);
       }
   });
 }
