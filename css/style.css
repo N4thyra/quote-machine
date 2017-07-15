@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background: #2c3e50;
+  color: white;
+  font-size: 2em;
+  background: #e52d27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.container {
+  width: 500px;
+  display: table;
+  margin: 15% auto;
+  padding: 1%;
+  /*background-color: #2c3e50;*/
+  background-color: #342224;
+  border-radius: 3%;
+  -webkit-box-shadow: 10px 9px 74px 13px rgba(52,34,36,1);
+  -moz-box-shadow: 10px 9px 74px 13px rgba(52,34,36,1);
+  box-shadow: 10px 9px 74px 13px rgba(52,34,36,1);
+  /*overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;*/
+}
+
+.quote-author span {
+  clear: both;
+  float: right;
+  font-size: 0.75em;
+}
+
+.quote-text {
+  float: left;
+  background-color: #342224;
+}
+
+.buttons {
+  clear: right;
+  text-align: right;
+  margin-top: 2%;
+  border: none;
+}
+
+.buttons #next-quote {
+  font-size: 0.75em;
+  color: white;
+  background-color: #342224;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 3%;
+  padding: 1.5%;
+  outline: none;
+}
+
+.buttons:hover #next-quote {
+  font-size: 0.75em;
+  color: #342224;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 3%;
+  padding: 1.5%;
+  outline: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
