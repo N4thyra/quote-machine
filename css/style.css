@@ -11,8 +11,33 @@ body {
   background: #e52d27;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+button {
+  font-size: 0.75em;
+  color: white;
+  background-color: #342224;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 3%;
+  padding: 1.5%;
+  outline: none;
+}
 
+button:hover {
+  font-size: 0.75em;
+  color: #342224;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 3%;
+  padding: 1.5%;
+  outline: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .container {
@@ -44,34 +69,14 @@ body {
 
 .buttons {
   clear: right;
-  text-align: right;
   margin-top: 2%;
   border: none;
 }
 
-.buttons #next-quote {
-  font-size: 0.75em;
-  color: white;
-  background-color: #342224;
-  border: 1px solid white;
-  border-radius: 10px;
-  margin-top: 3%;
-  padding: 1.5%;
-  outline: none;
+#next-quote {
+  float: right;
 }
 
-.buttons:hover #next-quote {
-  font-size: 0.75em;
-  color: #342224;
-  background-color: white;
-  border: 1px solid white;
-  border-radius: 10px;
-  margin-top: 3%;
-  padding: 1.5%;
-  outline: none;
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  -ms-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+#tweet {
+  float: left;
 }
